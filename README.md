@@ -18,7 +18,7 @@ Building automated systems for prediction markets, on-chain trading, and DeFi.
 
 **Focus areas:** Polymarket arbitrage & copy-trading bots · crypto Up/Down strategies · EVM & multichain tooling
 
-**Featured work:** [polymarket-arbitrage-bot](https://github.com/cryptomoonday/polymarket-arbitrage-bot) · [polymarket-trading-bot](https://github.com/cryptomoonday/polymarket-trading-bot) · [polymarket-copy-trading-bot](https://github.com/cryptomoonday/polymarket-copy-trading-bot)
+<!-- **Featured work:** [polymarket-arbitrage-bot](https://github.com/cryptomoonday/polymarket-arbitrage-bot) · [polymarket-trading-bot](https://github.com/cryptomoonday/polymarket-trading-bot) · [polymarket-copy-trading-bot](https://github.com/cryptomoonday/polymarket-copy-trading-bot) -->
 
 <div align="center">
 
