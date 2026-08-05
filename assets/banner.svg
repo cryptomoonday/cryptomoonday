@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-label="CryptoMoonday  Blockchain Engineer and Trading Bot Specialist">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020804"/>
+      <stop offset="45%" stop-color="#041208"/>
+      <stop offset="100%" stop-color="#0a1f0e"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="78%" cy="38%" r="42%">
+      <stop offset="0%" stop-color="#39ff14" stop-opacity="0.35"/>
+      <stop offset="35%" stop-color="#00e676" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonSurface" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#e8fff0"/>
+      <stop offset="35%" stop-color="#b8f5c8"/>
+      <stop offset="70%" stop-color="#5cb87a"/>
+      <stop offset="100%" stop-color="#1a4d2e"/>
+    </radialGradient>
+    <linearGradient id="chartLine" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c853"/>
+      <stop offset="100%" stop-color="#69f0ae"/>
+    </linearGradient>
+    <linearGradient id="titleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#d7ffe3"/>
+      <stop offset="100%" stop-color="#69f0ae"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="moonShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#00e676" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="hexGrid" width="28" height="24" patternUnits="userSpaceOnUse" patternTransform="scale(1.2)">
+      <path d="M14 0 L28 8 L28 16 L14 24 L0 16 L0 8 Z" fill="none" stroke="#00e676" stroke-opacity="0.08" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="fineGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 M0 0 V40" fill="none" stroke="#00c853" stroke-opacity="0.06" stroke-width="0.5"/>
+    </pattern>
+    <clipPath id="bannerClip">
+      <rect width="1280" height="320" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#fineGrid)"/>
+    <rect width="1280" height="320" fill="url(#hexGrid)"/>
+    <rect width="1280" height="320" fill="url(#moonGlow)"/>
+
+    <!-- Ascending trajectory arc -->
+    <path d="M 40 280 Q 320 260 520 210 T 880 90" fill="none" stroke="#00e676" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="6 8"/>
+    <path d="M 80 290 C 260 250 420 220 620 170 S 900 110 1020 70" fill="none" stroke="url(#chartLine)" stroke-opacity="0.55" stroke-width="2.5" filter="url(#softGlow)"/>
+
+    <!-- Candlesticks -->
+    <g opacity="0.92">
+      <line x1="110" y1="248" x2="110" y2="268" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="106" y="252" width="8" height="12" fill="#00c853"/>
+      <line x1="145" y1="238" x2="145" y2="262" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="141" y="242" width="8" height="14" fill="#00e676"/>
+      <line x1="180" y1="228" x2="180" y2="255" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="176" y="232" width="8" height="18" fill="#00c853"/>
+      <line x1="215" y1="235" x2="215" y2="250" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="211" y="238" width="8" height="8" fill="#2e7d32"/>
+      <line x1="250" y1="218" x2="250" y2="245" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="246" y="220" width="8" height="20" fill="#00e676"/>
+      <line x1="285" y1="205" x2="285" y2="232" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="281" y="208" width="8" height="20" fill="#00c853"/>
+      <line x1="320" y1="198" x2="320" y2="222" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="316" y="200" width="8" height="18" fill="#69f0ae"/>
+      <line x1="355" y1="185" x2="355" y2="210" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="351" y="188" width="8" height="18" fill="#00e676"/>
+      <line x1="390" y1="172" x2="390" y2="198" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="386" y="175" width="8" height="19" fill="#00c853"/>
+      <line x1="425" y1="165" x2="425" y2="188" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="421" y="168" width="8" height="16" fill="#00e676"/>
+      <line x1="460" y1="150" x2="460" y2="175" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="456" y="153" width="8" height="18" fill="#69f0ae"/>
+      <line x1="495" y1="138" x2="495" y2="162" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="491" y="140" width="8" height="18" fill="#00c853"/>
+      <line x1="530" y1="128" x2="530" y2="152" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="526" y="130" width="8" height="18" fill="#00e676"/>
+      <line x1="565" y1="118" x2="565" y2="142" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="561" y="120" width="8" height="18" fill="#00c853"/>
+      <line x1="600" y1="108" x2="600" y2="132" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="596" y="110" width="8" height="18" fill="#69f0ae"/>
+      <line x1="635" y1="98" x2="635" y2="122" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="631" y="100" width="8" height="18" fill="#00e676"/>
+      <line x1="670" y1="88" x2="670" y2="112" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="666" y="90" width="8" height="18" fill="#00c853"/>
+      <line x1="705" y1="78" x2="705" y2="102" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="701" y="80" width="8" height="18" fill="#00e676"/>
+      <line x1="740" y1="68" x2="740" y2="92" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="736" y="70" width="8" height="18" fill="#69f0ae"/>
+      <line x1="775" y1="58" x2="775" y2="82" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="771" y="60" width="8" height="18" fill="#00c853"/>
+      <line x1="810" y1="52" x2="810" y2="74" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="806" y="54" width="8" height="16" fill="#00e676"/>
+      <line x1="845" y1="46" x2="845" y2="68" stroke="#1b5e20" stroke-width="2"/>
+      <rect x="841" y="48" width="8" height="16" fill="#00c853"/>
+    </g>
+
+    <!-- Blockchain node mesh -->
+    <g stroke="#00e676" stroke-opacity="0.22" stroke-width="1">
+      <line x1="60" y1="180" x2="120" y2="150"/>
+      <line x1="120" y1="150" x2="190" y2="170"/>
+      <line x1="190" y1="170" x2="250" y2="130"/>
+      <line x1="250" y1="130" x2="310" y2="145"/>
+      <line x1="60" y1="180" x2="90" y2="220"/>
+      <line x1="90" y1="220" x2="190" y2="170"/>
+    </g>
+    <g fill="#69f0ae" fill-opacity="0.85">
+      <circle cx="60" cy="180" r="3.5"/>
+      <circle cx="120" cy="150" r="3"/>
+      <circle cx="190" cy="170" r="3.5"/>
+      <circle cx="250" cy="130" r="3"/>
+      <circle cx="310" cy="145" r="2.5"/>
+      <circle cx="90" cy="220" r="2.5"/>
+    </g>
+
+    <!-- HUD ticks -->
+    <g fill="#00e676" fill-opacity="0.35" font-family="Consolas, monospace" font-size="9">
+      <text x="48" y="292">+12.4%</text>
+      <text x="230" y="278">BTC</text>
+      <text x="420" y="250">VOL ‘</text>
+      <text x="610" y="210">ARB</text>
+      <text x="790" y="170">MOON</text>
+    </g>
+
+    <!-- Moon -->
+    <g filter="url(#moonShadow)">
+      <circle cx="998" cy="118" r="78" fill="url(#moonSurface)"/>
+      <circle cx="968" cy="98" r="14" fill="#1a4d2e" fill-opacity="0.35"/>
+      <circle cx="1020" cy="132" r="10" fill="#1a4d2e" fill-opacity="0.28"/>
+      <circle cx="1040" cy="92" r="7" fill="#1a4d2e" fill-opacity="0.22"/>
+      <circle cx="980" cy="145" r="18" fill="#1a4d2e" fill-opacity="0.18"/>
+      <circle cx="1010" cy="108" r="5" fill="#1a4d2e" fill-opacity="0.25"/>
+      <path d="M 998 40 A 78 78 0 0 1 1070 118" fill="none" stroke="#69f0ae" stroke-opacity="0.5" stroke-width="2"/>
+      <!-- Crescent shadow for depth -->
+      <path d="M 1040 88 A 62 62 0 1 0 1010 168 A 48 48 0 1 1 1040 88 Z" fill="#020804" fill-opacity="0.42"/>
+    </g>
+
+    <!-- Rocket trail toward moon -->
+    <path d="M 900 210 L 940 170 L 955 175 L 915 215 Z" fill="#00e676" fill-opacity="0.75"/>
+    <path d="M 915 215 L 955 175 L 968 182 L 928 222 Z" fill="#1b5e20" fill-opacity="0.8"/>
+    <path d="M 900 210 Q 930 250 960 270" fill="none" stroke="#69f0ae" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="3 5"/>
+
+    <!-- Scan lines -->
+    <g opacity="0.04">
+      <rect y="0" width="1280" height="2" fill="#00e676"/>
+      <rect y="8" width="1280" height="1" fill="#00e676"/>
+      <rect y="16" width="1280" height="1" fill="#00e676"/>
+    </g>
+
+    <!-- Title block -->
+    <text x="72" y="148" fill="url(#titleGlow)" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-1">CryptoMoonday</text>
+    <text x="74" y="182" fill="#8cffa8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="2.5">BLOCKCHAIN ENGINEER · TRADING BOT SPECIALIST</text>
+    <text x="74" y="208" fill="#00c853" fill-opacity="0.7" font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="1.2">when the charts go green, it's moon day</text>
+
+    <!-- Bottom accent bar -->
+    <rect y="314" width="1280" height="6" fill="#00e676" fill-opacity="0.85"/>
+    <rect y="314" width="420" height="6" fill="#69f0ae"/>
+  </g>
+</svg>

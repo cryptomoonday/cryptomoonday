@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.png" alt="CryptoMoonday — Blockchain Engineer & Trading Bot Specialist" width="100%" />
+<img src="./assets/banner.svg" alt="CryptoMoonday — Blockchain Engineer & Trading Bot Specialist" width="100%" />
 
 ### Blockchain Engineer · Trading Bot Specialist · Polymarket Enthusiast
 
